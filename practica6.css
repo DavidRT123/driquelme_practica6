@@ -61,6 +61,7 @@ height: 70px;
 }
 
 #footer{
+	margin: 40px 0 0 0;
 	float: left;
 	clear: both;
 }
@@ -69,57 +70,98 @@ height: 70px;
 	float: initial;
 }
 
- .rigth_section_box{
+.rigth_section_box{
  	margin: 0 0 15px 0;
  	padding: 10px;
  	border-style: solid;
  	border-width: 1px;
  	border-color: #CCC;
- }
+}
 
- .rigth_section_box h1{
+.rigth_section_box h1{
  	color: #C60;
  	text-decoration: underline;
  	margin: 0 0 8px 0;
  	padding: 0;
  	font-size: 15px;
- }
+}
 
- .rigth_section_box h2{
+.rigth_section_box h2{
  	color: #333;
  	margin: 0;
  	padding: 0;
  	font-size: 11px;
- }
+}
 
 .rigth_section_box h2>a{
  	text-decoration: none;
- }
+}
 
- .rigth_section_box h2>a:hover{
+.rigth_section_box h2>a:hover{
  	text-decoration: underline;
- }
+}
 
- .rigth_section_box p{
+.rigth_section_box p{
  	color: #333;
  	text-align: justify;
  	font-size: 11px;
  	margin: 0 0 20px 0;  
- }
+}
 
- .rigth_section_box p.last{
+.rigth_section_box p.last{
  	margin: 0;  
- }
+}
 
 .rigth_section_box img{
  	margin: 5px 0 5px 0;  
- }
+}
 
- #galeria{
+#galeria{
  	margin: 0 0 0 5px;
- }
+}
 
- #galeria img{
+#galeria img{
  	margin: 5px 0 5px 0;
- }
+}
 
+.left_section_box{
+	margin: 0 0 15px 0;
+	width: 380px;
+	padding: 0 0 0 15px
+}
+
+.left_section_box img{
+	float:left;
+	margin: 0 13px 10px 0;
+	display: inline; 
+} 
+
+.box_cabecera{
+	width: 395px;
+	height: 20px;
+	background-image: url("images/section_box_top.jpg");
+	background-repeat: repeat-x;
+	font-weight: bold;
+	font-size: 16px;
+	color: #666;
+	padding: 10px 0 0 15px; 
+}
+
+.left_section_box .post{
+	margin: 25px 0 0 0;
+	color: #C60;
+	font-size: 11px;
+}
+
+.left_section_box .post a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.left_section_box .post a:hover{
+	text-decoration: underline;
+}
+
+.cleaner{
+	clear: both;
+}
