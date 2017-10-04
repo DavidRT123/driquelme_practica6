@@ -1,0 +1,71 @@
+html{
+background: #fff;
+}
+
+body {
+margin: 0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 1.5em;
+color: #333333;
+width: 100%;
+display: table;
+}
+
+a { 
+color: #333;
+}
+ 
+a:hover
+{ 
+color: #666; 
+}
+
+#wrapper{
+margin: auto;
+width: 950px;
+}
+
+#contenido{
+margin: 30px 0 10px;
+}
+
+#left_section{
+width: 410px;
+float: left;
+}
+
+#middle_section{
+width: 180px;
+float: left;
+margin: 0 0 0 15px;
+}
+
+#right_section{
+width: 322px;
+float: right;
+margin: 0 10px 0 0;
+}
+
+#search{
+float: right;
+width: 320px;
+height: 70px;
+}
+
+#logo{
+	float: left;
+	width: 385px;
+	height: 55px;
+}
+
+#footer{
+	float: left;
+	clear: both;
+}
+
+#menu{
+	float: initial;
+}
+
